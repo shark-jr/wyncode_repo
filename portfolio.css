@@ -1,0 +1,77 @@
+body{
+  text-align: center;
+  background-image: url("jackiesarrow.jpg");
+}
+
+#header{
+  margin-top: 15%;
+  font-size: 4em;
+  /*font-family: 'Oswald', sans-serif;*/
+  font-family: 'Exo 2', sans-serif;
+  color: black;
+}
+#sub-header{
+  font-size: 3em;
+  /*font-family: 'Oswald', sans-serif;*/
+  font-family: 'Exo 2', sans-serif;
+}
+
+hr {
+  height: 30px;
+  border-style: solid;
+  border-color: #8c8b8b;
+  border-width: 3px 0 0 0;
+  border-radius: 20px;
+  width: 600px;
+}
+ul{
+  float:none;;
+  margin-right:auto;
+}
+li{
+  margin-top: auto;
+  list-style-type: none;
+  display: inline;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+  padding-right: 30px;
+}
+
+a:link{
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color: #586261;
+}
+img {
+    width: 15%;
+    height: auto;
+    opacity: 0.7;
+    float: left;
+    padding-left: 19%;
+    border-radius: 5px;
+}
+
+.clearfix{
+  overflow: auto;
+}
+p.aboutme{
+  text-align: left;
+  padding-right: 23%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1em;
+  margin-left: 500px;
+}
+p.contactme{
+  text-align: left;
+  margin-left: 20%;
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 3%
+}
